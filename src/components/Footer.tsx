@@ -19,8 +19,31 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="border-t border-sand-light/10 mt-10 pt-6 text-center">
-          <p className="font-body text-sand/40 text-xs">
+        <div className="border-t border-sand-light/10 mt-10 pt-6 text-center space-y-3">
+          <p className="font-body text-sand/60 text-sm">
+            Special thanks to{" "}
+            <a 
+              href="https://www.imagilabs.com" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary/80 transition-colors font-medium"
+            >
+              Imagi Labs
+            </a>{" "}
+            for providing access to Lovable!
+          </p>
+          <p className="font-body text-sand/60 text-sm">
+            Proudly built with{" "}
+            <a 
+              href="https://www.theknowledgehouse.org" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary/80 transition-colors font-medium"
+            >
+              The Knowledge House
+            </a>
+          </p>
+          <p className="font-body text-sand/40 text-xs mt-4">
             © 2025 Discover Eritrea. Images are for illustrative purposes.
           </p>
         </div>
